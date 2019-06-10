@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+body{
+	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Playball', cursive;
+	padding: 0;
+	margin:0;
+}
+header{
+	background-image: url(../images/banner.jpg);
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.logo img{
+	width:150px;
+}
+.menu ul li a{
+    color: #ddd;
+    font-size: 20px;
+    transition: all 0.8s ease;
+    font-weight: 600;
+}
+.hover a:hover{
+    width: 100%;
+    color: #3f104a !important;
+    transform: scale(1.5);
+}
+.take-action{
+	border: 2px solid #fff;
+    border-radius: 35px;
+    padding: 0px 15px;
+  	transition: all 0.8s ease;
+}
+.take-action:hover{
+	color: #17f1ac;
+	background-color: #3f104a;
+	border-color: #3f104a;
+}
+/*banner-section*/
+
+.banner-section{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+}
+.banner-section p{
+    font-size: 30px;
+    color: #424d62;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: 'Playball', cursive;
+}
+.banner-section .border{
+	width: 30%;
+	top: 25%;
+	left: 45%;
+	height: 5px;
+	transform: translate(-45%,-25%);
+	position: absolute;
+	background: #fb2056;
+	display: inline-block;
+}
+.banner-section h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.banner-section a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+}
+.admin{
+	padding: 50px 0;
+	background-color: #dddddda3;
+	position: relative;
+}
+.admin:before{
+	content: "";
+	position: absolute;
+	background-image: url(../images/quotation.png);
+	top:35%;
+	left: 20%;
+	width: 80px;
+	height: 70px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.admin p{
+    color: #585858;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Playball', cursive;
+}
+.admin span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4c4b4b;
+    text-transform: uppercase;
+}
+
+
+.events-section{
+    padding: 100px 0;
+}
+.heading{
+    padding-bottom: 60px;
+}
+.heading h2{
+    font-size: 30px;
+}
+.heading span{
+	display: inline-block;
+	width: 10%;
+	height: 3px;
+	background: #fd0036;
+}
+.events-sec{
+    padding: 30px;
+}
+.enents-content{}
+.enents-content a{
+    color: #a90024;
+    font-size: 16px;
+    transition: all ease 0.5s;
+}
+.enents-content a:hover{
+    color: #5c6c35;
+    text-decoration: none;
+}
+.enents-content p{
+    margin-top: 10px;
+    display: inline-block;
+    color: #656464;
+    font-size: 16px;
+}
+.enents-content img{
+    border-radius: 5px;
+    box-shadow: 5px 1px 0px 0 #ddd;
+    transition: all ease 0.5s;
+}
+.enents-content img:hover{
+	box-shadow: 5px 1px 0px 0 #a90061ab;
+	transform: rotate(10deg);
+}
+
+.explore-section{
+	background-image: url(../images/explore.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	padding: 100px 0;
+	overflow: hidden;
+
+}
+.explore-content{}
+.explore-content h1{
+    color: #fff;
+    font-size: 60px;
+}
+.explore-content p{
+    color: #cecccc;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.explore-content a{
+    color: #fff;
+    margin-top: 30px;
+}
+.explore-content a:hover{
+	color: #5c6c35;
+    text-decoration: none;
+}
+.explore-content span{
+	display: inline-block;
+	width: 20%;
+	height: 3px;
+	background: #fd0036;
+}
+.destination-section{
+    padding: 100px 0;
+}
+.destination-text{}
+.destination-text h1{}
+.destination-text p{
+    display: inline-block;
+    font-size: 16px;
+    padding: 25px 0;
+}
+.destination-text a{
+	border: 1px solid #ff0000c4;
+	border-radius: 35px;
+	padding: 10px 20px;
+	color: #262626;
+	transition: all 0.8s ease;
+}
+.destination-text a:hover{
+	color: #001d42;
+	background-color: #ff0000c4;
+	border-color: #ff0000c4;
+	text-decoration: none;
+}
+.destination-text span{
+	display: inline-block;
+	width: 30%;
+	height: 3px;
+	background: #fd0036;
+}
+
+
+.tours{
+}
+.tour{
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+.tour img{
+    width: 100%;
+    border-radius: 5px;
+}
+.footer{
+	padding: 40px 0;
+}
+.footer p{
+	margin:0 auto;
+	color:#fff;
+}
